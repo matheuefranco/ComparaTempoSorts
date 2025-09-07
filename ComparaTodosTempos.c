@@ -65,7 +65,7 @@ int main(){
 	printf("Quantidade de comparacoes QSort:%llu\n",r);
 	printf("Tempo decorrido(segundos) QSort: %.6f\n",tempo/1000);
 	
-		// mergesort
+	// mergesort
 	ini=clock();  
 	r=mergeSort(vm,n);
 	fim=clock();
